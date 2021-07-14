@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-server-test",
+  "version": "1.0.0",
+  "description": "Dessarrollo del servidor web con nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "test:debug":"node debug server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignaciolopeztorres/nodejs-server-test.git"
+  },
+  "keywords": [],
+  "author": "Ignacio Lopez Torres <ignacio.lopeztorres@hotmail.com> (http://ignaciolopeztorres.blogpot.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignaciolopeztorres/nodejs-server-test/issues"
+  },
+  "homepage": "https://github.com/ignaciolopeztorres/nodejs-server-test#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0"
+  }
+}
